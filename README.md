@@ -32,11 +32,6 @@ Returns:
 
     files (list[os.PathLike]): List of file paths.
 
-### Method  `get_root_dir`
-
-get_root_dir() -> os.PathLike
-Returns script directory path
-
 ### Method `get_src_dir_path`
 
 get_src_dir_path(root_dir: os.PathLike, src_dir: str, respect_git_ignore: bool = True) -> bool | os.PathLike
